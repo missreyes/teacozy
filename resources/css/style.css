@@ -1,0 +1,245 @@
+body {
+  background-color: black; /*R*/
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica; /*R*/
+  font-size: 22px; /*R*/
+  color: seashell; /*R*/
+  opacity: 0.9; /*R*/
+  text-align: center;/*R*/
+}
+
+/* Header */
+.header {
+  display: flex; /*N*/
+  top: 0;
+  left: 0;
+  width: 1400px;
+  height: 69px; /*R*/
+  position: fixed; /*R*/
+  z-index: 5;
+  background-color: black; /*R*/
+  border-bottom: 1px solid seashell; /*R*/
+}
+
+.header .logo {
+  display: inline-flex;
+  height: 50px; /*R*/
+  margin: 10px;
+  /*border: 2px solid yellow;*/
+}
+
+.header nav {
+  display: inline-flex;
+  width: 1240px;
+  height: auto;
+  align-items: center; /*N*/
+  justify-content: flex-end; /*N*/
+  /*border: 2px solid purple;*/
+}
+
+.header nav .span {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  margin: 20px;
+  justify-content: center;
+  text-decoration: underline; /*R*/
+}
+
+/*All bgBox's Info*/
+.bgBox {
+  display: flex;
+  width: auto;
+  height: auto;
+  padding: 87px 0 0 87px;
+  justify-content: center;
+  flex-direction: column; /*N*/
+  border: 2px solid yellow;
+}
+
+/*bgBox's Image*/
+.bgImg {
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+}
+
+/*bgBox's Black Bar*/
+.bgBar {
+  display: flex;
+  width: 1200px;
+  height: 100px;
+  background-color: black;
+  align-self: center; /*N*/
+  flex-flow: row wrap; /*N*/
+  z-index: 30; /*N*/
+  /*border: 2px solid red;*/
+}
+
+/*bgBox's Black Bar Headers*/
+.bgBar h2 {
+  display: inline-flex;
+  width: 1200px;
+  height: 50px;
+  margin: 0;
+  align-items: center; /*N*/
+  justify-content: center; /*N*/
+  /*border: 2px solid blue;*/
+}
+
+.bgBar h4 {
+  display: inline-flex;
+  width: 1200px;
+  height: 50px;
+  margin: 0;
+  align-items: center; /*N*/
+  justify-content: center; /*N*/
+  /*border: 2px solid green;*/
+}
+
+/*Tea of the Month Info.*/
+.month {
+  display: flex;
+  width: 1200px;
+  margin-top: 50px;
+  align-content: center;
+  flex-flow: column wrap;
+  border: 2px solid blue;
+}
+
+.month h2 {
+  display: inline-flex;
+  width: 1200px;
+  margin-top: 50px;
+  justify-content: center;
+  /*border: 2px solid blue;*/
+}
+
+.month h4 {
+  display: inline-flex;
+  width: 1200px;
+  margin-top: 0px;
+  justify-content: center;
+  /*border: 2px solid blue;*/
+}
+
+/*TofM's Image Container*/
+.tmImg {
+  display: flex;
+  width: 1200px;
+  height: auto;
+  margin: 0;
+  flex-flow: column wrap;
+  border: 2px solid green;
+}
+
+/*TofM's Image*/
+.tmImg img {
+  display: inline-flex;
+  width: 300px;
+  height: 200px;
+  margin: 0;
+  align-self: baseline;
+  border: 2px solid purple;
+}
+
+/*TofM's Titles*/
+.tmImg .titles {
+  display: inline-flex;
+  width: 300px;
+  height: 20px;
+  margin: 10px 0; /*R*/
+  align-self: baseline;
+  border: 2px solid red;
+}
+
+/*All smBox's Info*/
+.smallBox {
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  flex-direction: column; /*N*/
+}
+
+/*smallBox's Image*/
+.smImg {
+  display: flex;
+  width: 1200px;
+  height: 500px;
+  margin: 50px 0 0 0;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+/*smallBox's header*/
+.smImg h2 {
+  display: inline-flex;
+  width: auto;
+  height: 45px;
+  margin: 0;
+}
+
+/*smallBox's black boxes*/
+.smBars {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  margin: 15px 40px 0 0;
+  background-color: black;
+  align-self: center; /*N*/
+  justify-content: center;
+  align-items: center;
+  flex-flow: column; wrap; /*N*/
+  z-index: 30; /*N*/
+  border: 2px solid red;
+}
+
+/*smallBox's Addresses*/
+.smBars h3 {
+  margin: auto;
+
+}
+
+.smBars .unbold {
+  font-weight: normal;
+}
+
+/*All Footer Info.*/
+footer {
+  display: flex;
+  width: 1200px;
+  height: 200px;
+  background-color: black;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  /*border: 2px solid blue;*/
+}
+
+footer h2 {
+  display: inline-flex;
+  width: 1200px;
+  margin: 0;
+  justify-content: center;
+  /*border: 2px solid blue;*/
+}
+
+footer h5 {
+  display: inline-flex;
+  width: 1200px;
+  margin: 0;
+  /*margin-top: 10px;*/
+  justify-content: center;
+  /*border: 2px solid blue;*/
+}
+
+.copyright {
+  display: flex;
+  margin: 0px 0px 0px 20px;
+  text-align: left;
+  /*border: 2px solid green;*/
+}
