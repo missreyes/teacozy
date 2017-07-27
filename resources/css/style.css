@@ -126,32 +126,37 @@ body {
 }
 
 /*TofM's Image Container*/
-.tmImg {
+.tmContainer {
   display: flex;
-  width: 1200px;
+  width: 1000px;/*R*/
   height: auto;
   margin: 0;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
+  /*justify-content: center;*/
+  align-self: center;
   border: 2px solid green;
 }
 
 /*TofM's Image*/
-.tmImg img {
-  display: inline-flex;
+.tmContainer img {
+  display: inline-block;
   width: 300px;
   height: 200px;
-  margin: 0;
-  align-self: baseline;
+  margin: auto;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-end;
   border: 2px solid purple;
 }
 
 /*TofM's Titles*/
-.tmImg .titles {
+.tmContainer .titles {
   display: inline-flex;
   width: 300px;
   height: 20px;
   margin: 10px 0; /*R*/
-  align-self: baseline;
+  justify-content: center;
+
   border: 2px solid red;
 }
 
