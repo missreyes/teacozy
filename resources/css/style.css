@@ -58,7 +58,7 @@ body {
   height: auto;
   align-items: center;/*N*/
   flex-direction: column; /*N*/
-  border: 2px solid yellow;
+  /*border: 2px solid yellow;*/
 }
 
 /*bgBox's Image*/
@@ -145,7 +145,7 @@ body {
   width: 300px;
   height: 200px;
   margin: 10px 10px 0 10px;
-  border: 2px solid purple;*/
+  /*border: 2px solid purple;*/
 }
 
 /*TofM's Titles*/
@@ -182,6 +182,7 @@ body {
 
 /*smallBox's black boxes*/
 .smBars {
+  opacity: 1;
   display: inline-flex;/*N*/
   width: 300px;
   height: 300px;
@@ -204,7 +205,7 @@ body {
 /*All Footer Info.*/
 footer {
   display: flex;
-  width: 100%;
+  width: 1200px;
   height: 200px;
   background-color: black;
   flex-flow: column wrap;
@@ -214,7 +215,7 @@ footer {
 
 footer h2 {
   display: inline-flex;
-  width: 100%;
+  width: 1200px;
   margin: 0;
   justify-content: center;
   /*border: 2px solid blue;*/
@@ -222,15 +223,16 @@ footer h2 {
 
 footer h5 {
   display: inline-flex;
-  width: 100%;
+  width: 1200px;
   margin: 0;
   justify-content: center;
   /*border: 2px solid blue;*/
 }
 
 .copyright {
-  display: flex;
-  margin: 0px 0px 0px 20px;
   text-align: left;
-  /*border: 2px solid green;*/
+  margin-left: 20px;
+  /*flex-flow: column wrap;*/
+  border: 2px solid green;
+
 }
