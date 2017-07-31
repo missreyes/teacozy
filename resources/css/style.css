@@ -165,7 +165,7 @@ body {
   height: 500px;
   margin: 50px 0 0 0;
   flex-flow: row wrap;/*N*/
-  justify-content: space-around;/*N*/
+  justify-content: center;/*N*/
   align-items: center;/*N*/
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
 }
@@ -175,7 +175,7 @@ body {
   display: inline-flex;
   width: 1200px;
   height: auto;
-  margin: 40px 0 0 0;
+  margin: 40px 0 15px 0;
   justify-content: center;/*N*/
   /*border: 2px solid blue;*/
 }
@@ -186,7 +186,7 @@ body {
   display: inline-flex;/*N*/
   width: 300px;
   height: 300px;
-  margin: 0 0 70px 0;
+  margin: 0 40px 70px 0;
   background-color: black;
   flex-flow: row wrap; /*N*/
   z-index: 30; /*N*/
@@ -200,6 +200,8 @@ body {
 
 .smImg .unbold {
   font-weight: normal;
+  margin: auto;
+  padding: 15px;
 }
 
 /*All Footer Info.*/
